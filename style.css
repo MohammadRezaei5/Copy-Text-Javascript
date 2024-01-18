@@ -1,0 +1,98 @@
+/* ------------------  FONTS  ------------------ */
+@font-face {
+  font-family: vazir;
+  src: url(Fonts/Vazirmatn-FD-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: vazir;
+  src: url(Fonts/Vazirmatn-FD-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: vazir;
+  src: url(Fonts/Vazirmatn-FD-Thin.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: vazir;
+  src: url(Fonts/Vazirmatn-FD-Regular.ttf);
+  font-weight: 400;
+}
+/* ------------------ CSS RESETS  ------------------ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "vazir", sans-serif;
+}
+body {
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.title {
+  /* text-align: center; */
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+}
+.notice {
+  color: #87898e;
+  font-size: 14px;
+  font-weight: 400;
+}
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid #dfdfe6;
+  border-radius: 12px;
+  padding: 20px 16px;
+}
+.image-wrapper {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.button {
+  width: 100%;
+}
+.button button {
+  width: 100%;
+  background-color: #3772ff;
+  color: #fcfcfd;
+  font-size: 16px;
+  font-weight: 600;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 20px 0;
+}
+
+.container {
+  width: 544px;
+  min-height: 286px;
+  background-color: #fcfcfd;
+  border-radius: 15px;
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
